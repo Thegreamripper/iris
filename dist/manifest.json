@@ -1,0 +1,21 @@
+{
+  "name": "IRIS - Your Intelligent AI Assistant",
+  "short_name": "IRIS",
+  "description": "Your advanced AI assistant powered by cutting-edge technology",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e1b4b",
+  "theme_color": "#4F46E5",
+  "icons": [
+    {
+      "src": "/iris-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/iris-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+} 

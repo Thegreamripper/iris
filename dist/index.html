@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/iris-icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRIS - Your Intelligent AI Assistant</title>
+    <meta name="description" content="IRIS - Your advanced AI assistant powered by cutting-edge technology" />
+    <meta name="theme-color" content="#4F46E5" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    
+  <script type="module" crossorigin src="/AIAgent/assets/index-ea02096a.js"></script>
+  <link rel="stylesheet" href="/AIAgent/assets/index-c24503f0.css">
+</head>
+<body class="bg-gradient-to-br from-purple-900 to-blue-900 min-h-screen text-white">
+    <nav class="bg-white/10 backdrop-blur-lg fixed w-full z-50" role="navigation">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <h1 class="text-2xl font-bold">IRIS</h1>
+                <div class="space-x-4">
+                    <a href="#home" class="hover:text-blue-300 transition-colors">Home</a>
+                    <a href="#features" class="hover:text-blue-300 transition-colors">Features</a>
+                    <a href="#contact" class="hover:text-blue-300 transition-colors">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="pt-32 pb-20 px-4">
+            <div class="container mx-auto text-center">
+                <h1 class="text-5xl font-bold mb-6">Your AI Assistant</h1>
+                <p class="text-xl text-gray-300 mb-8">Experience the future of AI-powered assistance</p>
+                <button class="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-lg transition-colors">
+                    Get Started
+                </button>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="py-20 px-4 bg-white/5">
+            <div class="container mx-auto">
+                <h2 class="text-4xl font-bold text-center mb-12">Features</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white/10 p-6 rounded-lg backdrop-blur-lg hover-scale">
+                        <h3 class="text-xl font-bold mb-4">Smart Responses</h3>
+                        <p class="text-gray-300">Get intelligent and context-aware responses to your queries</p>
+                    </div>
+                    <div class="bg-white/10 p-6 rounded-lg backdrop-blur-lg hover-scale">
+                        <h3 class="text-xl font-bold mb-4">Voice Interaction</h3>
+                        <p class="text-gray-300">Interact naturally using voice commands</p>
+                    </div>
+                    <div class="bg-white/10 p-6 rounded-lg backdrop-blur-lg hover-scale">
+                        <h3 class="text-xl font-bold mb-4">24/7 Availability</h3>
+                        <p class="text-gray-300">Access your AI assistant anytime, anywhere</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 px-4">
+            <div class="container mx-auto max-w-2xl">
+                <h2 class="text-4xl font-bold text-center mb-12">Contact Us</h2>
+                <form class="bg-white/10 p-8 rounded-lg backdrop-blur-lg" aria-label="Contact Form">
+                    <div class="mb-4">
+                        <label for="name" class="block text-sm font-medium mb-2">Name</label>
+                        <input 
+                            type="text" 
+                            id="name"
+                            name="name"
+                            class="w-full px-4 py-2 rounded-lg bg-white/5 border border-white/10 focus:outline-none focus:border-blue-500"
+                            placeholder="Enter your name"
+                            aria-label="Name"
+                            required
+                        >
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-sm font-medium mb-2">Email</label>
+                        <input 
+                            type="email" 
+                            id="email"
+                            name="email"
+                            class="w-full px-4 py-2 rounded-lg bg-white/5 border border-white/10 focus:outline-none focus:border-blue-500"
+                            placeholder="Enter your email"
+                            aria-label="Email"
+                            required
+                        >
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-sm font-medium mb-2">Message</label>
+                        <textarea 
+                            id="message"
+                            name="message"
+                            class="w-full px-4 py-2 rounded-lg bg-white/5 border border-white/10 focus:outline-none focus:border-blue-500 h-32"
+                            placeholder="Type your message here"
+                            aria-label="Message"
+                            required
+                        ></textarea>
+                    </div>
+                    <button 
+                        type="submit"
+                        class="w-full bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-lg transition-colors"
+                        aria-label="Send Message"
+                    >
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white/5 py-8" role="contentinfo">
+        <div class="container mx-auto px-4 text-center text-gray-300">
+            <p>&copy; 2024 IRIS. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="root"></div>
+    
+</body>
+</html> 
